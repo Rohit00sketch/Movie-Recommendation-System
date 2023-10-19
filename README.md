@@ -1,1 +1,6 @@
 # Movie-Recommendation-System
+The code analyzes a dataset of movies by first importing essential Python libraries for data processing, text analysis, and similarity calculations. 
+It loads the movie data from a CSV file into a Pandas DataFrame and prints the first 5 rows for a quick overview. The selected features, including 'genres,' 'keywords,' 'tagline,' 'cast,' and 'director,' are defined for analysis, and any missing values in these features are replaced with empty strings. Text data from these features is then converted into TF-IDF (Term Frequency-Inverse Document Frequency) feature vectors to represent the movies. The code calculates the cosine similarity between these feature vectors, creating a similarity matrix. 
+It also prompts the user to input their favorite movie and retrieves a list of all movie titles. The ultimate goal of the code is to allow users to find movies similar to their favorite based on textual content. However, some critical elements, such as the data in the 'movies.csv' file and the definition of the variable 'combined_features,' are not shown in the snippet and need to be provided separately for the code to work effectively.
+Algorithm - Cosine Similarity Algorithm to find the similarity score.
+Dataset consists of 4800 rows and 24 attributes.
